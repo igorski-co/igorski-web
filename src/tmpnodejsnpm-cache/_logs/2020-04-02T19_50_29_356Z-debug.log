@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\igorc\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'docker-watch'
+1 verbose cli ]
+2 info using npm@6.14.2
+3 info using node@v12.11.1
+4 verbose run-script [ 'predocker-watch', 'docker-watch', 'postdocker-watch' ]
+5 info lifecycle liebling@1.0.0~predocker-watch: liebling@1.0.0
+6 info lifecycle liebling@1.0.0~docker-watch: liebling@1.0.0
+7 verbose lifecycle liebling@1.0.0~docker-watch: unsafe-perm in lifecycle true
+8 verbose lifecycle liebling@1.0.0~docker-watch: PATH: C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\projects\igorski-site\igorski-web\src\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\igorc\bin;C:\Python37\Scripts;C:\Python37;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\AMD\StoreMI\ECmd;C:\Program Files\Git\cmd;C:\Program Files\RedHat\java-11-openjdk-11.0.5-2\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs;C:\jython2.7.1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\RedHat\java-11-openjdk-11.0.5-2\bin;C:\Program Files\PowerShell\7-preview\preview;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\jruby-9.2.8.0\bin;C:\Users\igorc\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3\bin;C:\Users\igorc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\igorc\AppData\Local\GitHubDesktop\bin;C:\Program Files\RedHat\java-11-openjdk-11.0.5-2\bin;C:\Users\igorc\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.1\bin;C:\Applications\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\igorc\AppData\Local\Yarn\bin;C:\Python37;C:\Users\igorc\.ebcli-virtual-env\executables;C:\Users\igorc\AppData\Roaming\npm;C:\jython2.7.1\bin;C:\Users\igorc\AppData\Local\Microsoft\WindowsApps
+9 verbose lifecycle liebling@1.0.0~docker-watch: CWD: C:\projects\igorski-site\igorski-web\src
+10 silly lifecycle liebling@1.0.0~docker-watch: Args: [
+10 silly lifecycle   '/d /s /c',
+10 silly lifecycle   'docker-compose up -d && node node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js'
+10 silly lifecycle ]
+11 silly lifecycle liebling@1.0.0~docker-watch: Returned: code: 1  signal: null
+12 info lifecycle liebling@1.0.0~docker-watch: Failed to exec docker-watch script
+13 verbose stack Error: liebling@1.0.0 docker-watch: `docker-compose up -d && node node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:210:5)
+13 verbose stack     at ChildProcess.<anonymous> (C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:210:5)
+13 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+14 verbose pkgid liebling@1.0.0
+15 verbose cwd C:\projects\igorski-site\igorski-web\src
+16 verbose Windows_NT 10.0.18362
+17 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\igorc\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "docker-watch"
+18 verbose node v12.11.1
+19 verbose npm  v6.14.2
+20 error code ELIFECYCLE
+21 error errno 1
+22 error liebling@1.0.0 docker-watch: `docker-compose up -d && node node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js`
+22 error Exit status 1
+23 error Failed at the liebling@1.0.0 docker-watch script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]

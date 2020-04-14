@@ -5,7 +5,7 @@
   padding: 0 $mobile-space;
 
   @include respond-to('medium') {
-    max-width: 1200px;
+    max-width: 1202px;
   }
 
   @include respond-to('extra-large') {
@@ -20,7 +20,7 @@
     }
 
     @include respond-to('extra-large') {
-      padding: 0;
+      padding: 0 10px;      
     }
   }
 
@@ -43,7 +43,7 @@
     }
 
     @include respond-to('largest') {
-      max-width: 1200px;
+      max-width: 1201px;
     }
   }
 }

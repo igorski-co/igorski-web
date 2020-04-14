@@ -4,7 +4,7 @@
   min-height: 365px;
   overflow: hidden;
   padding: 100px 0 75px;
-  background-color: var(--secondary-subtle-color);
+  background-color: var(--main-color);
   @extend .content-centered;
 
   @include respond-to('medium') {
@@ -14,14 +14,33 @@
 
   &.with-picture {
     color: $white;
-    background-color: $black;
+    background-color: var(--main-color);
 
     @include respond-to('medium') {
-      min-height: 450px;
+      //min-height: 450px;
+      min-height: 100vh;
     }
 
     @include respond-to('extra-large') {
-      min-height: 565px;
+      //min-height: 565px;
+      min-height: 100vh;
+    }
+
+    .m-hero-title {
+      color: $white;
+    }
+  }
+
+  &.with-picture.in-post {
+    color: $white;
+    background-color: var(--main-color);
+
+    @include respond-to('medium') {
+      min-height: 500px;      
+    }
+
+    @include respond-to('extra-large') {
+      min-height: 565px;      
     }
 
     .m-hero-title {
@@ -42,15 +61,20 @@
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   z-index: 1;
-  opacity: 0.7;
+  background-color: var(--main-color);
+  // opacity: 0.7;
   &.in-post {
     opacity: 1;
+    height: 98%;
   }
 }
 
 .m-hero__content {
+  max-width: 12002px;
+  margin: 0 86px;
+  width: calc((100% / 2) - 40px);
   position: relative;
   text-align: center;
   padding: 0 $mobile-space;

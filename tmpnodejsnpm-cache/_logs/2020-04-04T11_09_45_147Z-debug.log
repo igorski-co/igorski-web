@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\igorc\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'docker-watch'
+1 verbose cli ]
+2 info using npm@6.14.2
+3 info using node@v12.11.1
+4 verbose stack Error: missing script: docker-watch
+4 verbose stack     at run (C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\lib\run-script.js:155:19)
+4 verbose stack     at C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\lib\run-script.js:63:5
+4 verbose stack     at C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:116:5
+4 verbose stack     at C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:436:5
+4 verbose stack     at checkBinReferences_ (C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:391:45)
+4 verbose stack     at final (C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:434:3)
+4 verbose stack     at then (C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:161:5)
+4 verbose stack     at C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:281:12
+4 verbose stack     at C:\Users\igorc\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:115:16
+4 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:61:3)
+5 verbose cwd C:\projects\igorski-site\igorski-web
+6 verbose Windows_NT 10.0.18362
+7 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\igorc\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "docker-watch"
+8 verbose node v12.11.1
+9 verbose npm  v6.14.2
+10 error missing script: docker-watch
+11 verbose exit [ 1, true ]

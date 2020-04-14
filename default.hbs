@@ -9,7 +9,9 @@
     <title>{{meta_title}}</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link href="//db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy" rel="stylesheet" type="text/css"/> 
+    <link rel="stylesheet" type="text/css" href="{{asset "css/app.css"}}" media="screen" />
     {{!-- Styles'n'Scripts --}}
     <style>
       /* This font-face is here to make icons work if the Ghost instance is installed in a subdirectory */
@@ -24,8 +26,17 @@
         font-style: normal;
         font-display: swap;
       }
+      @font-face {font-family: "Gilroy"; src: url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot"); src: url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff") format("woff"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.svg#Gilroy") format("svg"); } 
+      @font-face {
+        font-family: "Gilroy ExtraBold"; 
+        src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot"); 
+        src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot?#iefix") 
+        format("embedded-opentype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff2") 
+        format("woff2"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff") 
+        format("woff"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.ttf") 
+        format("truetype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.svg#Gilroy ExtraBold") 
+        format("svg"); } 
     </style>
-    <link rel="stylesheet" type="text/css" href="{{asset "css/app.css"}}" media="screen" />
 
     {{!-- This #block helper will pull data from the hero partial 
     to inject styles of the hero image to make it responsive --}}

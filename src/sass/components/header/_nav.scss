@@ -11,6 +11,7 @@
 
   @include respond-to('medium') {
     margin-bottom: 0;
+    flex-grow: 2;
   }
 
   ul {
@@ -20,12 +21,13 @@
     @include respond-to('medium') {
       display: flex;
       align-items: center;
+      justify-content: space-between;
     }
 
     li {
-      color: var(--titles-color);
+      color: #ffffff;
       letter-spacing: 0.3px;
-      font-size: 1.125rem;
+      font-size: 1.2rem;
       margin-bottom: 15px;
 
       @include respond-to('medium') {
@@ -45,6 +47,7 @@
       &.nav-current {
         font-weight: 600;
       }
+      
 
       a {
         color: inherit;

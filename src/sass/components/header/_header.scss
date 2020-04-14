@@ -4,7 +4,8 @@
   left: 0;
   width: 100%;
   z-index: 4;
-  background-color: var(--background-color);
+  //background-color: var(--background-color);
+  background-color: #250260;
   will-change: transform;
   @include transition(transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1));
 
@@ -21,7 +22,7 @@
   }
 
   &.headroom--pinned {
-    @include bs(0 4px 8px rgba(0, 0, 0, 0.05));
+    //@include bs(0 4px 8px rgba(0, 0, 0, 0.05));
     @include transform(translateY(0%));
 
     .m-header__shadow {
@@ -34,7 +35,8 @@
   }
 
   &.submenu-is-active {
-    background-color: var(--background-color);
+    //background-color: var(--background-color);
+    background-color:#250260;
 
     .m-header__shadow {
       display: none;
@@ -42,6 +44,7 @@
   }
 
   &.with-picture {
-    background-color: var(--background-color);
+    // background-color: var(--background-color);
+    background-color:#250260;
   }
 }
